@@ -1,4 +1,4 @@
-/* General Reset */
+/* General cs for the body  */
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +6,13 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Body Styling */
+/* Body Styling  bg color and size */
 body {
     background:   #ff4081;;
     text-align: center;
     padding: 20px;
 }
-/* Header Styling */
+/* Header Styling the header sections and stafss  */
 header {
     display: flex;
     justify-content: space-between; /* Logo left, API link right */
@@ -23,7 +23,7 @@ header {
     width: 100%;
 }
 
-/* Logo Container */
+/* Logo Container styling  */
 .logo {
     display: flex;
     justify-content: space-between;
@@ -33,12 +33,12 @@ header {
     margin: auto;
 }
 
-/* Logo Image */
+/* Logo Image of the deepseek */
 .logo img {
     height: 40px;
 }
 
-/* API Platform Link  to make it more good*/
+/* API Platform Link  to make it more good* and styling it */
 .logo a {
     text-decoration: none;
     font-weight: bold;
@@ -63,7 +63,7 @@ header {
 .hero {
     margin-top: 50px;
 }
-
+ /* for the first one  */
 .brand-name {
     font-size: 50px;
     font-weight: bold;
@@ -76,7 +76,7 @@ header {
     margin-top: 10px;
 }
 
-/* CTA Section */
+/* CTA Section  styles */
 .cta-section {
     display: flex;
     justify-content: center;
