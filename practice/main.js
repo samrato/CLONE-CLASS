@@ -40,3 +40,16 @@ if(!password || !Name){
 }else if(password != 1234 || Name != "kamau" ){
     console.log ("wrong details ")
 }
+// for (initialization; condition; increment) {
+//     // Code to be executed
+//     // }
+
+for(let i= 1; i< 5; i++){
+    console.log(`The value is ${i}`)
+}
+
+// functions
+function greetUser(){
+    console.log("hello user ")
+}
+greetUser()
