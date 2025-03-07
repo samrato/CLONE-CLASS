@@ -32,3 +32,11 @@ if(age >movieRating){console.log(`${age} its is bigger than ${movieRating} `)}
 else{console.log(`${age} its is less than ${movieRating} `)}
 
 // Logical Operators: Making Decisions in Code
+// Make a login system where a user can access an area if they have the correct password OR if they're an admin
+var Name="juma" 
+var password=123
+if(!password || !Name){
+    console.log("password and name is needed")
+}else if(password != 1234 || Name != "kamau" ){
+    console.log ("wrong details ")
+}
