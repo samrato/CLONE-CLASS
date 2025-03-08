@@ -53,3 +53,28 @@ function greetUser(){
     console.log("hello user ")
 }
 greetUser()
+
+function walksteps(stpes){
+    console.log("natembea stpes ngapi hivi a week "+stpes)
+}
+walksteps(45)
+
+// the arrays in java scripts
+
+const names =["juma","willington","onyango ","lanah"]
+
+console.log(names[0])
+console.log(names[3])
+
+
+const kamau =document.getElementById("para")
+kamau.style.color="blue"
+console.log(kamau.textContent)
+
+
+const juma =document.getElementsByClassName("myclass")
+console.log(juma)
+
+const alert=()=>{
+   console.log(alert("button is clicked"))
+}
